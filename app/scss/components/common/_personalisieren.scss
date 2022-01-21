@@ -1,0 +1,74 @@
+.personalisieren {
+    padding: 120px 0 120px;
+    background: #e5e5e5;
+    &__content {
+        display: flex;
+    }
+    &__img {
+        margin-left: 220px;
+        margin-right: 55px;
+        border-radius: 50%;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #362f25;
+        margin-bottom: 18px;
+        max-width: 686px;
+        margin-top: 34px;
+    }
+    &__name {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 180%;
+        color: #362f25;
+        max-width: 180px;
+    }
+    &__box {
+        max-width: 438px;
+        margin: auto;
+        margin-left: 532px;
+    }
+    &__item {
+       margin-top: 61px; 
+       margin-bottom: 61px;
+    }
+    &__link {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 200%;
+        color: #625B50;
+        margin-bottom: 21px; 
+    }
+    &__wate {
+        text-decoration: underline;
+    }
+    &__notizbuch {
+        margin: auto;
+    }
+    &__play {
+        content: "";
+        top: 313px;
+        left: 560px;
+        position: relative;
+    }
+    &__notizbuch {
+        margin: auto;
+        // margin-left: 133px;
+    }
+    &__play {
+        content: "";
+        top: 313px;
+        left: 560px;
+        position: relative;
+    }
+
+    
+}

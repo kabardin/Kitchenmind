@@ -1,0 +1,59 @@
+.heruntenladen {
+    padding: 219px 0 222px;
+    background:  #EDEBE9;
+    
+    &__inner {
+        background-color: #db5d42;
+        padding: 100px 0 103px;
+        background-image: url('../../../images/bg__fon/heruntenladen__fon.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #ffffff;
+        max-width: 501px;
+        margin-top: 63px;
+        display: block;
+        position: relative;
+    }
+
+    &__title::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 110px;
+        background-image: url('../../../images/bg__fon/heruntenladen__fon.svg');
+    }
+
+    &__img {
+        // display: block;
+    }
+    &__foto {
+        position: relative;
+    }
+    &__foto::before {
+        position: absolute;
+        content: "";
+        height: 44px;
+        width: 44px;
+        top: 105px;
+        left: 103px;
+        background-image: url("../../../images/errow-red__bottom-bb.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+    }
+}

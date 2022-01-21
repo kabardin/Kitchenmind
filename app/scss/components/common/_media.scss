@@ -1,0 +1,77 @@
+.media {
+    padding: 120px 0 125px;
+    background: #e5e5e5;
+    background-image: url('../../../images/bg__fon/media__fon.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+
+    &__one {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #363025;
+        max-width: 477px;
+        padding-left: 76px;
+        position: relative;
+    }
+    &__title:before {
+        position: absolute;
+        content: "";
+        top: 68px;
+        left: 263px;
+        height: 26px;
+        width: 26px;
+        background-image: url('../../../images/errow__red.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__pancakes-one {
+        max-height: 374px;
+        margin-top: 201px;
+        margin-left: 219px;
+    }
+    &__cooking {
+        margin-right: 164px;
+        margin-top: -49px;
+    }
+    &__pancakes {
+        flex-direction: column;
+        padding-bottom: 62px;
+        max-width: 378px;
+    }
+    &__text {
+        display: flex;
+        margin-top: -6px;
+        margin-left: 2px;
+    }
+    &__title-rezept {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #362f25;
+        padding: 0px 23px 0 74px;
+        max-width: 282px;
+    }
+
+    &__rezept {
+        margin-left: -20px;
+        margin-top: -2px;
+    }
+    &__zutatel {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 220%;
+        color: #625b50;
+    }
+}

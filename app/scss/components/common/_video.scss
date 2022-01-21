@@ -1,0 +1,43 @@
+.video {
+    background-color: #dbccb4;
+    padding: 120px 0 118px;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+    &__title {
+        margin-top: 5px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 67px;
+        margin-left: 126px;
+        color: #ffffff;
+        margin-bottom: 55px;
+    }
+    &__data {
+        margin-top: 37px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px;
+        color: #ffffff;
+        padding-right: 113px;
+    }
+
+   
+    &__play {
+        content: "";
+        top: 151px;
+        left: 590px;
+        position: relative;
+    }
+    &__img {
+        margin: auto;
+        margin-top: -186px;
+        margin-left: 133px;
+    }
+}

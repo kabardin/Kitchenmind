@@ -1,0 +1,55 @@
+.speed {
+    padding: 120px 0 139px;
+    background: #e5e5e5;
+    &__box {
+        display: flex;
+    }
+    &__direktor {
+        padding-left: 57px;
+        padding-right: 30px;
+        border-radius: 50%;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #362f25;
+        margin-bottom: 18px;
+    }
+    &__sub {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 180%;
+        color: #362f25;
+        max-width: 267px;
+        margin-bottom: 61px;
+    }
+    &__text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 200%;
+        color: #625B50;
+        max-width: 438px;
+        margin-left: 342px;
+        margin-bottom: 60px;
+    }
+  
+    &__play {
+        content: "";
+        top: 313px;
+        left: 560px;
+        position: relative;
+    }
+    &__img {
+        margin: auto;
+        margin-left: 133px;
+    }
+
+    
+}

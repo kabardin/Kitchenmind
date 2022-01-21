@@ -1,0 +1,40 @@
+.feedback {
+    padding: 120px 0 119px;
+    background: #edebe9;
+    background-image: url('../../../images/bg__fon/feedback__bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__content {
+        text-align: center;
+        max-width: 875px;
+        margin: auto;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #db5d42;
+        max-width: 875px;
+        margin-bottom: 46px;
+        align-items: center;
+    }
+    &__text {
+        margin: auto;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.07em;
+        color: #362F25;
+        max-width: 209px;
+        margin-bottom: 16px;
+    }
+    &__img {
+        margin: auto;
+    }
+}

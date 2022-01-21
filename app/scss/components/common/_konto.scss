@@ -1,0 +1,174 @@
+.konto {
+    padding: 38px 0 92px;
+    background: #e5e5e5;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+    &__logout {
+        display: none;
+    }
+
+    &__menu {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 25px;
+        color: #362f25;
+    }
+
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 67px;
+        color: #362f25;
+        margin-bottom: 27px;
+        padding-left: 97px;
+    }
+    &__box {
+        border-bottom: 2px solid #362f25;
+        margin-left: 97px;
+        margin-bottom: 33px;
+    }
+    &__click {
+        padding-right: 47px;
+    }
+    &__click,
+    &__clicks {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        // border-bottom: 2px solid #362f25;
+        position: relative;
+    }
+
+    &__click:focus {
+        content: "";
+        // position: absolute;
+        background-image: url("../../../images/konto__bottom.svg");
+    }
+
+    &__clicks:focus {
+        color: #db5d42;
+    }
+    &__click:focus {
+        color: #db5d42;
+    }
+
+    &__content {
+        display: flex;
+        margin-left: 97px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 65px;
+        padding-bottom: 20px;
+    }
+
+    &__text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 34px;
+        color: #000000;
+        span {
+            color: #db5d42;
+        }
+    }
+    &__input {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #9c9790;
+        background: #fafafa;
+        border-radius: 3px;
+        padding: 8px 362px 8px 22px;
+        border: none;
+        margin-bottom: 15px;
+        outline: none;
+    }
+    &__control {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #9c9790;
+        background: #fafafa;
+        border-radius: 3px;
+        padding: 8px 0 8px 22px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+    }
+    &__input:focus {
+        color: red;
+        border: 1px solid red;
+    }
+    &__control:focus {
+        color: red;
+        border: 1px solid red;
+    }
+    &__passwort {
+        padding-left: 97px;
+        max-width: 753px;
+    }
+
+    &__pass {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #9c9790;
+        background: #fafafa;
+        border-radius: 3px;
+        padding: 8px 0 8px 22px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        display: block;
+    }
+    &__pass:focus {
+        color: red;
+        border: 1px solid red;
+    }
+    &__speichern {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 0.07em;
+        color: #db5d42;
+        background: #E5E5E5;
+        border: 2px solid #DB5D42;
+        border-radius: 53px;
+        padding: 14px 35px 14px 35px;
+    }
+
+    &__speichern:hover {
+       content: '';
+       background-color:  #DB5D42;
+       color: #E5E5E5; 
+       cursor: pointer;
+       display: block;
+       transition: all .3s;
+    }
+
+}

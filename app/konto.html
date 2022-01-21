@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Konto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Playfair+Display&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <section class="konto">
+        <div class="container">
+            <div class="konto__inner">
+                <div class="konto__top">
+                    <a href="#" class="konto__logo"><img src="images//konto__bg.svg" alt="открытие меню"
+                            class="konto__img">
+                    </a>
+                    <button class="konto__menu">
+                        Mark Douglas
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.272217" y="6.38672" width="2.3" height="9" transform="rotate(-45 0.272217 6.38672)" fill="#362F25"/>
+                            <rect x="11.3738" y="4.75977" width="2.3" height="9" transform="rotate(45 11.3738 4.75977)" fill="#362F25"/>
+                            </svg>
+                    </button>
+                    <button class="konto__logout">Logout</button>
+                </div>
+                <h3 class="konto__title">
+                    Mein Konto
+                </h3>
+                <div class="konto__box">
+                    <button class="konto__click">Persönliche Daten</button>
+                    <button class="konto__clicks">Social Media Content</button>
+                </div>
+                <div class="konto__content">
+                    <form class="konto__form">
+                        <p class="konto__text">Аllgemeine Daten <span>*</span></p>
+                        <input type="text" placeholder="Name" class="konto__input">
+                        <input type="text" placeholder="Nachname" class="konto__input">
+                        <input type="text" placeholder="Firma" class="konto__input">
+                        <input type="email" placeholder="E-mail" class="konto__input">
+                        <input type="tel" placeholder="Telefonnummer" class="konto__input">
+                    </form>
+
+                    <form class="konto__form">
+                        <p class="konto__text">Adresse <span>*</span></p>
+                        <select class="konto__control" id="select">
+                            <option selected value="Land">Land</option>
+                            <option class="konto__option" value="AX">AALAND ISLANDS</option>
+                            <option class="konto__option" value="AF">AFGHANISTAN</option>
+                            <option class="konto__option" value="AL">ALBANIA</option>
+                            <option class="konto__option" value="DZ">ALGERIA</option>
+                            <option class="konto__option" value="AS">AMERICAN SAMOA</option>
+                            <option class="konto__option" value="AD">ANDORRA</option>
+                            <option class="konto__option" value="AO">ANGOLA</option>
+                            <option class="konto__option" value="AI">ANGUILLA</option>
+                            <option class="konto__option" value="AQ">ANTARCTICA</option>
+                            <option class="konto__option" value="AG">ANTIGUA AND BARBUDA</option>
+                            <option class="konto__option" value="AR">ARGENTINA</option>
+                            <option class="konto__option" value="AM">ARMENIA</option>
+                            <option class="konto__option" value="AW">ARUBA</option>
+                            <option class="konto__option" value="AU">AUSTRALIA</option>
+                            <option class="konto__option" value="AT">AUSTRIA</option>
+                            <option class="konto__option" value="AZ">AZERBAIJAN</option>
+                            <option class="konto__option" value="BS">BAHAMAS</option>
+                            <option class="konto__option" value="BH">BAHRAIN</option>
+                            <option class="konto__option" value="BD">BANGLADESH</option>
+                            <option class="konto__option" value="BB">BARBADOS</option>
+                            <option class="konto__option" value="BY">BELARUS</option>
+                            <option class="konto__option" value="BE">BELGIUM</option>
+                            <option class="konto__option" value="BZ">BELIZE</option>
+                            <option class="konto__option" value="BJ">BENIN</option>
+                            <option class="konto__option" value="BM">BERMUDA</option>
+                            <option class="konto__option" value="BT">BHUTAN</option>
+                            <option class="konto__option" value="BO">BOLIVIA</option>
+                            <option class="konto__option" value="BA">BOSNIA AND HERZEGOWINA</option>
+                            <option class="konto__option" value="BW">BOTSWANA</option>
+                            <option class="konto__option" value="BV">BOUVET ISLAND</option>
+                            <option class="konto__option" value="BR">BRAZIL</option>
+                            <option class="konto__option" value="IO">BRITISH INDIAN OCEAN TERRITORY</option>
+                            <option class="konto__option" value="BN">BRUNEI DARUSSALAM</option>
+                            <option class="konto__option" value="BG">BULGARIA</option>
+                            <option class="konto__option" value="BF">BURKINA FASO</option>
+                            <option class="konto__option" value="BI">BURUNDI</option>
+                            <option class="konto__option" value="KH">CAMBODIA</option>
+                            <option class="konto__option" value="CM">CAMEROON</option>
+                            <option class="konto__option" value="CA">CANADA</option>
+                            <option class="konto__option" value="CV">CAPE VERDE</option>
+                            <option class="konto__option" value="KY">CAYMAN ISLANDS</option>
+                            <option class="konto__option" value="CF">CENTRAL AFRICAN REPUBLIC</option>
+                            <option class="konto__option" value="TD">CHAD</option>
+                            <option class="konto__option" value="CL">CHILE</option>
+                            <option class="konto__option" value="CN">CHINA</option>
+                            <option class="konto__option" value="CX">CHRISTMAS ISLAND</option>
+                            <option class="konto__option" value="CO">COLOMBIA</option>
+                            <option class="konto__option" value="KM">COMOROS</option>
+                            <option class="konto__option" value="CK">COOK ISLANDS</option>
+                            <option class="konto__option" value="CR">COSTA RICA</option>
+                            <option class="konto__option" value="CI">COTE D'IVOIRE</option>
+                            <option class="konto__option" value="CU">CUBA</option>
+                            <option class="konto__option" value="CY">CYPRUS</option>
+                            <option class="konto__option" value="CZ">CZECH REPUBLIC</option>
+                            <option class="konto__option" value="DK">DENMARK</option>
+                            <option class="konto__option" value="DJ">DJIBOUTI</option>
+                            <option class="konto__option" value="DM">DOMINICA</option>
+                            <option class="konto__option" value="DO">DOMINICAN REPUBLIC</option>
+                            <option class="konto__option" value="EC">ECUADOR</option>
+                            <option class="konto__option" value="EG">EGYPT</option>
+                            <option class="konto__option" value="SV">EL SALVADOR</option>
+                            <option class="konto__option" value="GQ">EQUATORIAL GUINEA</option>
+                            <option class="konto__option" value="ER">ERITREA</option>
+                            <option class="konto__option" value="EE">ESTONIA</option>
+                            <option class="konto__option" value="ET">ETHIOPIA</option>
+                            <option class="konto__option" value="FO">FAROE ISLANDS</option>
+                            <option class="konto__option" value="FJ">FIJI</option>
+                            <option class="konto__option" value="FI">FINLAND</option>
+                            <option class="konto__option" value="FR">FRANCE</option>
+                            <option class="konto__option" value="GF">FRENCH GUIANA</option>
+                            <option class="konto__option" value="PF">FRENCH POLYNESIA</option>
+                            <option class="konto__option" value="TF">FRENCH SOUTHERN TERRITORIES</option>
+                            <option class="konto__option" value="GA">GABON</option>
+                            <option class="konto__option" value="GM">GAMBIA</option>
+                            <option class="konto__option" value="GE">GEORGIA</option>
+                            <option class="konto__option" value="DE">GERMANY</option>
+                            <option class="konto__option" value="GH">GHANA</option>
+                            <option class="konto__option" value="GI">GIBRALTAR</option>
+                            <option class="konto__option" value="GR">GREECE</option>
+                            <option class="konto__option" value="GL">GREENLAND</option>
+                            <option class="konto__option" value="GD">GRENADA</option>
+                            <option class="konto__option" value="GP">GUADELOUPE</option>
+                            <option class="konto__option" value="GU">GUAM</option>
+                            <option class="konto__option" value="GT">GUATEMALA</option>
+                            <option class="konto__option" value="GN">GUINEA</option>
+                            <option class="konto__option" value="GW">GUINEA-BISSAU</option>
+                            <option class="konto__option" value="GY">GUYANA</option>
+                            <option class="konto__option" value="HT">HAITI</option>
+                            <option class="konto__option" value="HM">HEARD AND MC DONALD ISLANDS</option>
+                            <option class="konto__option" value="HN">HONDURAS</option>
+                            <option class="konto__option" value="HK">HONG KONG</option>
+                            <option class="konto__option" value="HU">HUNGARY</option>
+                            <option class="konto__option" value="IS">ICELAND</option>
+                            <option class="konto__option" value="IN">INDIA</option>
+                            <option class="konto__option" value="ID">INDONESIA</option>
+                            <option class="konto__option" value="IQ">IRAQ</option>
+                            <option class="konto__option" value="IE">IRELAND</option>
+                            <option class="konto__option" value="IL">ISRAEL</option>
+                            <option class="konto__option" value="IT">ITALY</option>
+                            <option class="konto__option" value="JM">JAMAICA</option>
+                            <option class="konto__option" value="JP">JAPAN</option>
+                            <option class="konto__option" value="JO">JORDAN</option>
+                            <option class="konto__option" value="KZ">KAZAKHSTAN</option>
+                            <option class="konto__option" value="KE">KENYA</option>
+                            <option class="konto__option" value="KI">KIRIBATI</option>
+                            <option class="konto__option" value="KW">KUWAIT</option>
+                            <option class="konto__option" value="KG">KYRGYZSTAN</option>
+                            <option class="konto__option" value="LA">LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+                            <option class="konto__option" value="LV">LATVIA</option>
+                            <option class="konto__option" value="LB">LEBANON</option>
+                            <option class="konto__option" value="LS">LESOTHO</option>
+                            <option class="konto__option" value="LR">LIBERIA</option>
+                            <option class="konto__option" value="LY">LIBYAN ARAB JAMAHIRIYA</option>
+                            <option class="konto__option" value="LI">LIECHTENSTEIN</option>
+                            <option class="konto__option" value="LT">LITHUANIA</option>
+                            <option class="konto__option" value="LU">LUXEMBOURG</option>
+                            <option class="konto__option" value="MO">MACAU</option>
+                            <option class="konto__option" value="MG">MADAGASCAR</option>
+                            <option class="konto__option" value="MW">MALAWI</option>
+                            <option class="konto__option" value="MY">MALAYSIA</option>
+                            <option class="konto__option" value="MV">MALDIVES</option>
+                            <option class="konto__option" value="ML">MALI</option>
+                            <option class="konto__option" value="MT">MALTA</option>
+                            <option class="konto__option" value="MH">MARSHALL ISLANDS</option>
+                            <option class="konto__option" value="MQ">MARTINIQUE</option>
+                            <option class="konto__option" value="MR">MAURITANIA</option>
+                            <option class="konto__option" value="MU">MAURITIUS</option>
+                            <option class="konto__option" value="YT">MAYOTTE</option>
+                            <option class="konto__option" value="MX">MEXICO</option>
+                            <option class="konto__option" value="MC">MONACO</option>
+                            <option class="konto__option" value="MN">MONGOLIA</option>
+                            <option class="konto__option" value="MS">MONTSERRAT</option>
+                            <option class="konto__option" value="MA">MOROCCO</option>
+                            <option class="konto__option" value="MZ">MOZAMBIQUE</option>
+                            <option class="konto__option" value="MM">MYANMAR</option>
+                            <option class="konto__option" value="NA">NAMIBIA</option>
+                            <option class="konto__option" value="NR">NAURU</option>
+                            <option class="konto__option" value="NP">NEPAL</option>
+                            <option class="konto__option" value="NL">NETHERLANDS</option>
+                            <option class="konto__option" value="AN">NETHERLANDS ANTILLES</option>
+                            <option class="konto__option" value="NC">NEW CALEDONIA</option>
+                            <option class="konto__option" value="NZ">NEW ZEALAND</option>
+                            <option class="konto__option" value="NI">NICARAGUA</option>
+                            <option class="konto__option" value="NE">NIGER</option>
+                            <option class="konto__option" value="NG">NIGERIA</option>
+                            <option class="konto__option" value="NU">NIUE</option>
+                            <option class="konto__option" value="NF">NORFOLK ISLAND</option>
+                            <option class="konto__option" value="MP">NORTHERN MARIANA ISLANDS</option>
+                            <option class="konto__option" value="NO">NORWAY</option>
+                            <option class="konto__option" value="OM">OMAN</option>
+                            <option class="konto__option" value="PK">PAKISTAN</option>
+                            <option class="konto__option" value="PW">PALAU</option>
+                            <option class="konto__option" value="PA">PANAMA</option>
+                            <option class="konto__option" value="PG">PAPUA NEW GUINEA</option>
+                            <option class="konto__option" value="PY">PARAGUAY</option>
+                            <option class="konto__option" value="PE">PERU</option>
+                            <option class="konto__option" value="PH">PHILIPPINES</option>
+                            <option class="konto__option" value="PN">PITCAIRN</option>
+                            <option class="konto__option" value="PL">POLAND</option>
+                            <option class="konto__option" value="PT">PORTUGAL</option>
+                            <option class="konto__option" value="PR">PUERTO RICO</option>
+                            <option class="konto__option" value="QA">QATAR</option>
+                            <option class="konto__option" value="RE">REUNION</option>
+                            <option class="konto__option" value="RO">ROMANIA</option>
+                            <option class="konto__option" value="RU">RUSSIAN FEDERATION</option>
+                            <option class="konto__option" value="RW">RWANDA</option>
+                            <option class="konto__option" value="SH">SAINT HELENA</option>
+                            <option class="konto__option" value="KN">SAINT KITTS AND NEVIS</option>
+                            <option class="konto__option" value="LC">SAINT LUCIA</option>
+                            <option class="konto__option" value="PM">SAINT PIERRE AND MIQUELON</option>
+                            <option class="konto__option" value="VC">SAINT VINCENT AND THE GRENADINES</option>
+                            <option class="konto__option" value="WS">SAMOA</option>
+                            <option class="konto__option" value="SM">SAN MARINO</option>
+                            <option class="konto__option" value="ST">SAO TOME AND PRINCIPE</option>
+                            <option class="konto__option" value="SA">SAUDI ARABIA</option>
+                            <option class="konto__option" value="SN">SENEGAL</option>
+                            <option class="konto__option" value="CS">SERBIA AND MONTENEGRO</option>
+                            <option class="konto__option" value="SC">SEYCHELLES</option>
+                            <option class="konto__option" value="SL">SIERRA LEONE</option>
+                            <option class="konto__option" value="SG">SINGAPORE</option>
+                            <option class="konto__option" value="SK">SLOVAKIA</option>
+                            <option class="konto__option" value="SI">SLOVENIA</option>
+                            <option class="konto__option" value="SB">SOLOMON ISLANDS</option>
+                            <option class="konto__option" value="SO">SOMALIA</option>
+                            <option class="konto__option" value="ZA">SOUTH AFRICA</option>
+                            <option class="konto__option" value="GS">SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS
+                            </option>
+                            <option class="konto__option" value="ES">SPAIN</option>
+                            <option class="konto__option" value="LK">SRI LANKA</option>
+                            <option class="konto__option" value="SD">SUDAN</option>
+                            <option class="konto__option" value="SR">SURINAME</option>
+                            <option class="konto__option" value="SJ">SVALBARD AND JAN MAYEN ISLANDS</option>
+                            <option class="konto__option" value="SZ">SWAZILAND</option>
+                            <option class="konto__option" value="SE">SWEDEN</option>
+                            <option class="konto__option" value="CH">SWITZERLAND</option>
+                            <option class="konto__option" value="SY">SYRIAN ARAB REPUBLIC</option>
+                            <option class="konto__option" value="TW">TAIWAN</option>
+                            <option class="konto__option" value="TJ">TAJIKISTAN</option>
+                            <option class="konto__option" value="TH">THAILAND</option>
+                            <option class="konto__option" value="TL">TIMOR-LESTE</option>
+                            <option class="konto__option" value="TG">TOGO</option>
+                            <option class="konto__option" value="TK">TOKELAU</option>
+                            <option class="konto__option" value="TO">TONGA</option>
+                            <option class="konto__option" value="TT">TRINIDAD AND TOBAGO</option>
+                            <option class="konto__option" value="TN">TUNISIA</option>
+                            <option class="konto__option" value="TR">TURKEY</option>
+                            <option class="konto__option" value="TM">TURKMENISTAN</option>
+                            <option class="konto__option" value="TC">TURKS AND CAICOS ISLANDS</option>
+                            <option class="konto__option" value="TV">TUVALU</option>
+                            <option class="konto__option" value="UG">UGANDA</option>
+                            <option class="konto__option" value="UA">UKRAINE</option>
+                            <option class="konto__option" value="AE">UNITED ARAB EMIRATES</option>
+                            <option class="konto__option" value="GB">UNITED KINGDOM</option>
+                            <option class="konto__option" value="US">UNITED STATES</option>
+                            <option class="konto__option" value="UM">UNITED STATES MINOR OUTLYING ISLANDS</option>
+                            <option class="konto__option" value="UY">URUGUAY</option>
+                            <option class="konto__option" value="UZ">UZBEKISTAN</option>
+                            <option class="konto__option" value="VU">VANUATU</option>
+                            <option class="konto__option" value="VE">VENEZUELA</option>
+                            <option class="konto__option" value="VN">VIET NAM</option>
+                            <option class="konto__option" value="WF">WALLIS AND FUTUNA ISLANDS</option>
+                            <option class="konto__option" value="EH">WESTERN SAHARA</option>
+                            <option class="konto__option" value="YE">YEMEN</option>
+                            <option class="konto__option" value="ZM">ZAMBIA</option>
+                            <option class="konto__option" value="ZW">ZIMBABWE</option>
+                        </select>
+                        <input type="text" placeholder="Stadt" class="konto__input">
+                        <input type="text" placeholder="PLZ" class="konto__input">
+                        <input type="text" placeholder="Straße" class="konto__input">
+                        <input type="text" placeholder="Hausnummer" class="konto__input">
+                    </form>
+                </div>
+                <div class="konto__passwort">
+                    <p class="konto__text">Passwort <span>*</span></p>
+                    <form class="konto__form">
+                        <input type="password" id="password-input" placeholder="Passwort eingeben" class="konto__pass">
+                        <input type="password" placeholder="Passwort wiederholen" class="konto__pass">
+                    </form>
+                    <button class="konto__speichern">Änderungen speichern</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

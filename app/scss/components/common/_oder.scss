@@ -1,0 +1,93 @@
+.oder {
+    padding: 140px 0 116px;
+    background: #e5e5e5;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__subtitle {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #362f25;
+        margin-bottom: 7px;
+        margin-left: 62px;
+    }
+    &__btn {
+        margin-right: 220px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 0.07em;
+        color: #db5d42;
+        border: 2px solid #db5d42;
+        border-radius: 53px;
+        padding: 14px 68px 14px 35px;
+        position: relative;
+    }
+
+    &__svg {
+        content: "";
+        position: absolute;
+        top: 16px;
+        left: 144px;
+    }
+
+    &__btn:hover {
+        content: "";
+        display: block;
+        cursor: pointer;
+        background-color: #db5d42;
+        color: #fff;
+
+        & .pflicht__svg {
+            & rect {
+                fill: #fff;
+            }
+        }
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #362f25;
+        margin-left: 53px;
+        max-width: 441px;
+        margin-bottom: 60px;
+    }
+    &__foto {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 51px;
+    }
+    &__text {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__variante {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #362f25;
+        margin-bottom: 25px;
+    }
+    &__lead {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 200%;
+        color: #625B50;
+        max-width: 440px;
+        margin-bottom: 20px;
+    }
+}

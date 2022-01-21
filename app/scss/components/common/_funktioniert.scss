@@ -1,0 +1,52 @@
+.funktioniert {
+    padding: 113px 0 150px;
+    background:  #EDEBE9;
+  
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 217px 0;
+    }
+    &__title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #362f25;
+        max-width: 332px;
+        margin-bottom: 21px;
+    }
+    &__text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 200%;
+        color: #625b50;
+        max-width: 375px;
+    }
+    &__bottom-link {
+        padding-bottom: 130px;
+        display: flex;
+        flex-direction: column;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 34px;
+        max-width: 294px;
+    }
+    &__bottom-item {
+        margin-left: 305px;
+    }
+   
+    &__bottom-span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #db5d42;
+    }
+}
